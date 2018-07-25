@@ -7,7 +7,7 @@ $(document).ready(function(){
     var userRuns = prompt("How many numbers do you want", 10);
     
     var userNums = run(userMax,userRuns);
-    console.log(userNums);
+    
     $(".box").append(card);
     for(i = 0; i < userRuns; i ++){
       $(".card").append(userNums[i] + ", ");
